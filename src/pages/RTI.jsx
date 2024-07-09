@@ -1,10 +1,31 @@
-import React from 'react'
-import Footer from '../components/Footer'
+import React from 'react';
+import Footer from '../components/Footer';
+import '../App.css';
 
 const RTI = () => {
+  const data = [
+    {
+      id: 1,
+      name: 'Dr. V. R. K',
+      designation: 'Joint Director',
+      contact: '-'
+    },
+    {
+      id: 2,
+      name: 'Parineeta Pandharam ',
+      designation: 'Assistant Director',
+      contact: '-'
+    },
+    {
+      id: 3,
+      name: 'V. V. Khare',
+      designation: 'Assistant Director',
+      contact: '-'
+    },
+  ];
   return (
     <>
-      <div className='director-wrap'>
+      {/* <div className='director-wrap'>
         <div className="director-heading">
           RTI
         </div>
@@ -69,8 +90,47 @@ const RTI = () => {
           </div>
 
         </div>
-      </div>
+      </div> */}
+      {/* <div className='row'>
+        <h2>Right to Information</h2>
+        <p>Nodal Officers for obtaining information under RTI.</p>
+        <p>Under RTI Act, 2005 the following officers of this office are providing the information :-</p>
+      </div> */}
+   <div className="" style={{width:"100%", textAlign: "left", marginBottom:"-120px"}}>
+    <div className='info' >
+  <h2 >Right To Information (RTI)</h2>
+  <div className='info-1' style={{marginTop:"10px"}}>
+    <p>Appellate Authority - Shri P. M. Parlewar, Director</p>
+    <p>CPIO - DR. VR Sirsath Joint. Director</p>
+    <p>ACPIO - Shri Y. B. Baghel, Asstt. Director</p>
+  </div>
+  <table style={{ border: '1px solid black', borderCollapse: 'collapse' , marginTop:"30px", width:'70%'}}>
+    <thead className='' style={{backgroundColor:"#e4e4e4", color:"black"}}>
+      <tr>
+        <th style={{ border: '1px solid black', padding: '8px' }}>Sl</th>
+        <th style={{ border: '1px solid black', padding: '8px' }}>Name of the Officer & Designation</th>
+        <th style={{ border: '1px solid black', padding: '8px' }}>Designated RTI Officer</th>
+        <th style={{ border: '1px solid black', padding: '8px' }}>Contact Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((row) => (
+        <tr key={row.id}>
+          <td style={{ border: '1px solid black', padding: '8px', textAlign: 'center' }}>{row.id}</td>
+          <td style={{ border: '1px solid black', padding: '8px' }}>{row.name}</td>
+          <td style={{ border: '1px solid black', padding: '8px' }}>{row.designation}</td>
+          <td style={{ border: '1px solid black', padding: '8px' }}>{row.contact}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+</div>
+ 
+
+
       <Footer />
+  
     </>
   )
 }

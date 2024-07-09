@@ -8,15 +8,15 @@ const Footer = () => {
         <>
             <footer className="footer">
 
-                <svg className="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-                    <path className="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+                <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+                    <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
                 </svg>
 
                 <div className="footer-content">
                     <div className="footer-content-column">
                         <div className="footer-logo">
                             <a className="footer-logo-link" href="#">
-                                <img src={Logo} alt="" srcSet="" height={70} />
+                                <img src={Logo} alt="" srcset="" height={70} />
                                 <h1>MSME</h1>
                             </a>
                         </div>
@@ -83,13 +83,18 @@ const Footer = () => {
                     </div>
                     <div className="footer-content-column">
                         <div className="footer-call-to-action">
-                            <h2 className="footer-call-to-action-title"> Contact Us</h2>
+                            <h2 className="footer-call-to-action-title"> Contact us</h2>
+                            {/* <p className="footer-call-to-action-description"> Have a support question?</p> */}
+                            
+                            
+                          
                         </div>
                         <div className="footer-call-to-action">
                             {/* <h2 className="footer-call-to-action-title"> You Call Us</h2> */}
-                            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="tel:1800787809" target="_self"> 07122510046 </a></p>
-                            <p className='' style={{cursor: "pointer"}}>dcdi_nagpur@dcmsme.gov.in
-                            </p>
+                            <p> <a className="footer-call-to-action-link-wrapper" href="tel:1800787809/0-7122-5103-52" target="_self"> 1-800-7878-09/0-7122-5103-52</a></p>
+                            <p className="footer-call-to-action-link-wrapper"> 
+                            <a href="mailto:pardeepkumar4bjp@gmail.com"><b>dcdi_nagpur@dcmsme.gov.in</b></a></p>
+                            
                         </div>
                     </div>
 

@@ -28,7 +28,8 @@
      max-width: 860px;
      margin: 30px auto;
      padding:20px;
-     background-color:#D3D3D3;
+     background-color: rgb(246, 246, 246);
+     box-shadow: 2px 2px 10px gray;
      border-radius:20px;
  }
  h1 {

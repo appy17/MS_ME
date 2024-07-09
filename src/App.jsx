@@ -12,7 +12,7 @@ import Tenders from './pages/Tenders';
 import Service from './pages/Service';
 import MoreImages from './pages/MoreImages';
 import Form from './components/Form';
-import RTI from './pages/Documents';
+import RTI from './pages/RTI';
 
 function App() {
 
@@ -25,6 +25,7 @@ function App() {
         <Route path='/act&rules' element={<Acts />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/rti' element={<RTI />} />
+
         <Route path='/https://champions.gov.in/Government-India/Ministry-MSME-Portal-handholding/msme-problem-complaint-welcome.htm' />
         <Route path='/notices' element={<Notices />} />
         <Route path='/services' element={<Service />} />

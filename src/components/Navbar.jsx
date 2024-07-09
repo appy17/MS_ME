@@ -76,9 +76,11 @@ const Navbar = () => {
                     <img src={SwachBharat} alt="" />
                 </div>
             </div>
-            <hr />
+            {/* <hr /> */}
 
-            <div className={`navitems-wrap ${isOpen ? 'open' : ''}`}>
+            <div style={{
+                margin:'-10px 0 0 0'
+            }} className={`navitems-wrap ${isOpen ? 'open' : ''}`}>
                 <ul className='nav'>
                     <NavLink to='/' className='text-decor'>  
                     <li className="navitem">
@@ -87,7 +89,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink to='/about' className='text-decor'><li className="navitem">
-                        About Us
+                        About Us +
                     </li>
                     </NavLink>
 
@@ -102,22 +104,22 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink to='/notices' className='text-decor'><li className="navitem">
-                        Notices
+                        Notices +
                     </li>
                     </NavLink>
 
                     <NavLink to='/act&rules' className='text-decor'><li className="navitem">
-                        Acts & Rules
+                        Acts & Rules +
                     </li>
                     </NavLink>
 
                     <NavLink to='/tenders' className='text-decor'><li className="navitem">
-                        Tenders
+                        Tenders + 
                     </li>
                     </NavLink>
 
-                    <NavLink to='/documents' className='text-decor'><li className="navitem">
-                        RTI
+                    <NavLink to='/rti' className='text-decor'><li className="navitem">
+                        RTI +
                     </li>
                     </NavLink>
 

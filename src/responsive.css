@@ -24,12 +24,17 @@
         flex-direction: column;
     }
 
+    .logo-0 img {
+      display: none;
+    }
+
     .logo-1 img {
       display: none;
     }
 
     .logo-2 h2 {
         font-size: 13px;
+        
     }
 
     .logo-2 img {
@@ -62,8 +67,8 @@
 
     .navitem {
         margin-bottom: .70rem;
+        border: none;
     }
-
     .navitems-wrap.open  {
         display: flex !important;
     }
