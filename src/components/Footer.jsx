@@ -74,7 +74,7 @@ const Footer = () => {
                                     <a href="https://udyamregistration.gov.in/Government-India/Ministry-MSME-registration.htm">Registration</a>
                                 </li>
                                 <li className="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                                    <a href="https://msme.gov.in/right-information-act">RTI</a></li>
+                                    <a href="/rti">RTI</a></li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page">
                                     <Link to="/contact">Contact</Link>
                                 </li>
@@ -91,7 +91,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-call-to-action">
                             {/* <h2 className="footer-call-to-action-title"> You Call Us</h2> */}
-                            <p> <a className="footer-call-to-action-link-wrapper" href="tel:1800787809/0-7122-5103-52" target="_self"> 1-800-7878-09/0-7122-5103-52</a></p>
+                            <p> <a className="footer-call-to-action-link-wrapper" href="0-7122-5103-52" target="_self"> 0-7122-5103-52</a></p>
                             <p className="footer-call-to-action-link-wrapper"> 
                             <a href="mailto:pardeepkumar4bjp@gmail.com"><b>dcdi_nagpur@dcmsme.gov.in</b></a></p>
                             

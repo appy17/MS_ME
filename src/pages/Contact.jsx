@@ -46,8 +46,8 @@ const Contact = () => {
 
                   <li className="add">
                     <FaPhone className="ic" />
-                    <a href="tel: 1800787809/0-7122-5103-52">
-                      <b> 1-800-7878-09/0-7122-5103-52</b>
+                    <a href="tel:0-7122-5103-52">
+                      <b> 0-7122-5103-52</b>
                     </a>
                     ,
                   </li>
