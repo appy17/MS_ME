@@ -11,7 +11,7 @@ const Schemes = () => {
         </div>
 
         <table className='table'>
-          <thead className='table-head'>
+          <thead className='table-head ' style={{color:"white"}} >
             <th scope='col'>Schemes</th>
             <th scope='col'>Sub Components</th>
             <th scope='col'>Details</th>
