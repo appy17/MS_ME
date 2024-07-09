@@ -14,7 +14,7 @@ const RTI = () => {
     },
     {
       id: 2,
-      name: "Parineeta Pandharam ",
+      name: "Parineeta Pandhram ",
       secondName: "Asstt. Director",
       designation: "Central Public Information Officer(CPIO)",
       contact: "0712-2510046/ 2510352",
