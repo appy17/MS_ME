@@ -5,20 +5,20 @@ import "../App.css";
 const Who = () => {
   const data = [
     { id: 1, name: "Sh. V.R. Sirsath", designation: "Joint Director (HoO)", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
-    { id: 2, name: "Sh. Subhash Ingewear", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
-    { id: 3, name: "Smt. P.N. Pandhram", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
-    { id: 4, name: "Sh. V.V. Khare", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
-    { id: 5, name: "Sh. M.G. Bhurle", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
-    { id: 6, name: "Sh. V.G. Nikhade", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
-    { id: 7, name: "Sh. Manish V.K. Jha", designation: "Asstt. Director Gr-II", contact: "", fax: "" },
-    { id: 8, name: "Sh. Abhai Nath", designation: "SSO", contact: "", fax: "" },
-    { id: 9, name: "Sh. P.P. Bogare", designation: "O.S", contact: "", fax: "" },
-    { id: 10, name: "Sh. P.S. Wasnik", designation: "Instructor", contact: "", fax: "" },
-    { id: 11, name: "Smt. S. S. Takalkar", designation: "Steno Gr-II", contact: "", fax: "" },
-    { id: 12, name: "Sh. N.M. Chauhan", designation: "UDC", contact: "", fax: "" },
-    { id: 13, name: "Sh. Anirban Das", designation: "UDC", contact: "", fax: "" },
-    { id: 14, name: "Sh. D.S. Dhabhekar", designation: "MTS", contact: "", fax: "" },
-    { id: 15, name: "Sh. Mantu Kumar", designation: "MTS", contact: "", fax: "" }
+    { id: 2, name: "Sh. Subhash Ingewear", designation: "Asstt. Director Gr-I", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 3, name: "Smt. P.N. Pandhram", designation: "Asstt. Director Gr-I", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 4, name: "Sh. V.V. Khare", designation: "Asstt. Director Gr-I", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 5, name: "Sh. M.G. Bhurle", designation: "Asstt. Director Gr-I", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 6, name: "Sh. V.G. Nikhade", designation: "Asstt. Director Gr-I", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 7, name: "Sh. Manish V.K. Jha", designation: "Asstt. Director Gr-II", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 8, name: "Sh. Abhai Nath", designation: "SSO", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 9, name: "Sh. P.P. Bogare", designation: "O.S", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 10, name: "Sh. P.S. Wasnik", designation: "Instructor", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 11, name: "Smt. S. S. Takalkar", designation: "Steno Gr-II", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 12, name: "Sh. N.M. Chauhan", designation: "UDC", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 13, name: "Sh. Anirban Das", designation: "UDC", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 14, name: "Sh. D.S. Dhabhekar", designation: "MTS", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 15, name: "Sh. Mantu Kumar", designation: "MTS", contact: "0712-2510046/ 2510352", fax: "0712-2511985" }
   ];
 
   return (
