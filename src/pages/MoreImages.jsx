@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Card1 from '../assets/card-1.webp'
+import Card1 from '../assets/card-1.jpg'
 import Card2 from '../assets/card-4.jpg'
 import Card3 from '../assets/card-3.jpg'
 import Pic from '../assets/m-4.jpg'
