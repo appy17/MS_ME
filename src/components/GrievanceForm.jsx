@@ -12,9 +12,9 @@ const GrievanceForm = () => {
   return (
    <>
    <div className="form-container">
-      <h1 className='form-heading'>Welcome to Our Grievances Page</h1>
-      <p className='form-request'>Please click the button below to submit your grievance:</p>
-      <button className="form-btn" onClick={handleFormSubmit}>Submit Grievance</button>
+      <h1 className='form-heading'>Welcome to Our Registration Page</h1>
+      <p className='form-request'>Please click the button below to Register:</p>
+      <button className="form-btn" onClick={handleFormSubmit}>Submit Registration</button>
     </div>
    <Footer/>
    </>

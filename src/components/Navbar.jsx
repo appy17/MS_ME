@@ -120,7 +120,7 @@ import { NavLink } from 'react-router-dom';
                 </NavLink>
 
                 <NavLink to='/grievanceform' className='text-decor'>
-                    <li className="navitem">Grievances</li>
+                    <li className="navitem">Registration</li>
                 </NavLink>
 
                 <NavLink to='/contact' className='text-decor'>
