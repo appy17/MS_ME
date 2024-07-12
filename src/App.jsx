@@ -13,6 +13,8 @@ import Service from './pages/Service';
 import MoreImages from './pages/MoreImages';
 import Form from './components/Form';
 import RTI from './pages/RTI';
+import Who from './pages/Who';
+import GrievanceForm from './components/GrievanceForm';
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
         <Route path='/act&rules' element={<Acts />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/rti' element={<RTI />} />
+        <Route path='/who' element={<Who />} />
+        <Route path='/grievanceform' element={<GrievanceForm />} />
 
         <Route path='/https://champions.gov.in/Government-India/Ministry-MSME-Portal-handholding/msme-problem-complaint-welcome.htm' />
         <Route path='/notices' element={<Notices />} />

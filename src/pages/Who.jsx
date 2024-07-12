@@ -1,118 +1,55 @@
 import React from "react";
 import Footer from "../components/Footer";
-// import "../App.css";
-
-
+import ScrollToTopButton from "../components/ScrollToTopButton";
+import "../App.css";
 const Who = () => {
   const data = [
-    {
-      id: 1,
-      name: "Jt.Director and H.O.O. ",
-      secondName: "MSME DFO, Mumbai",
-      designation: "Appellate Authority",
-      contact: "0712-2510046/ 2510352",
-    },
-    {
-      id: 2,
-      name: "Parineeta Pandhram ",
-      secondName: "Asstt. Director",
-      designation: "Central Public Information Officer(CPIO)",
-      contact: "0712-2510046/ 2510352",
-    },
-    {
-      id: 3,
-      name: "V. V. Khare",
-      secondName: "Asstt. Director",
-      designation: "Assistant Public Information Officer(APIO)",
-      designation: "Assistant Director",
-      contact: "0712-2510046/ 2510352",
-    },
+    { id: 1, name: "Sh. V.R. Sirsath", designation: "Joint Director (HoO)", contact: "0712-2510046/ 2510352", fax: "0712-2511985" },
+    { id: 2, name: "Sh. Subhash Ingewear", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
+    { id: 3, name: "Smt. P.N. Pandhram", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
+    { id: 4, name: "Sh. V.V. Khare", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
+    { id: 5, name: "Sh. M.G. Bhurle", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
+    { id: 6, name: "Sh. V.G. Nikhade", designation: "Asstt. Director Gr-I", contact: "", fax: "" },
+    { id: 7, name: "Sh. Manish V.K. Jha", designation: "Asstt. Director Gr-II", contact: "", fax: "" },
+    { id: 8, name: "Sh. Abhai Nath", designation: "SSO", contact: "", fax: "" },
+    { id: 9, name: "Sh. P.P. Bogare", designation: "O.S", contact: "", fax: "" },
+    { id: 10, name: "Sh. P.S. Wasnik", designation: "Instructor", contact: "", fax: "" },
+    { id: 11, name: "Smt. S. S. Takalkar", designation: "Steno Gr-II", contact: "", fax: "" },
+    { id: 12, name: "Sh. N.M. Chauhan", designation: "UDC", contact: "", fax: "" },
+    { id: 13, name: "Sh. Anirban Das", designation: "UDC", contact: "", fax: "" },
+    { id: 14, name: "Sh. D.S. Dhabhekar", designation: "MTS", contact: "", fax: "" },
+    { id: 15, name: "Sh. Mantu Kumar", designation: "MTS", contact: "", fax: "" }
   ];
+
   return (
-  
-      <>
-        <div
-          className=""
-          style={{ width: "100%", textAlign: "left", marginBottom: "-120px" }}
-        >
-          <div className="info">
-            <h2>Right To Information (RTI)</h2>
-            <div className="info-1" style={{ marginTop: "10px" }}>
-              <p>Nodal Officers for obtaining information under RTI.</p>
-              <p className="" style={{ marginTop: "10px" }}>
-                Under RTI Act, 2005 the following officers of this office are
-                providing the information :-
-              </p>
-            </div>
-            <table
-             className="c_table"
-              style={{
-                border: "1px solid black",
-                borderCollapse: "collapse",
-                marginTop: "30px",
-                width: "70%",
-              }}
-            >
-              <thead
-                className=""
-                style={{ backgroundColor: "#e4e4e4", color: "black" }}
-              >
-                <tr>
-                  <th style={{ border: "1px solid black", padding: "8px" }}>
-                    Sl
-                  </th>
-                  <th style={{ border: "1px solid black", padding: "8px" }}>
-                    Name of the Officer & Designation
-                  </th>
-                  <th style={{ border: "1px solid black", padding: "8px" }}>
-                    Designated RTI Officer
-                  </th>
-                  <th style={{ border: "1px solid black", padding: "8px" }}>
-                    Contact Number
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {data.map((row) => (
-                  <tr key={row.id}>
-                    <td
-                      style={{
-                        border: "1px solid black",
-                        padding: "8px",
-                        textAlign: "center",
-                      }}
-                    >
-                      {row.id}
-                    </td>
-                    <td
-                      style={{
-                        border: "1px solid black",
-                        lineHeight: "1px",
-                        padding: "8px",
-                      }}
-                    >
-                      <p className="" style={{ fontWeight: "bold" }}>
-                        {row.name}
-                      </p>
-                      <br />
-                      <p>{row.secondName}</p>
-                    </td>
-
-                    <td style={{ border: "1px solid black", padding: "8px" }}>
-                      {row.designation}
-                    </td>
-                    <td style={{ border: "1px solid black", padding: "8px" }}>
-                      {row.contact}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      
-
+    <>
+      <div className="info">
+        <h2>List of Officers and Staff for MSME-DFO, NAGPUR</h2>
+        <table className="c_table">
+          <thead style={{ backgroundColor: "#e4e4e4", color: "black" }}>
+            <tr>
+              <th>Sr No</th>
+              <th>Name of the Officer & Staff</th>
+              <th>Designation</th>
+              <th>Phone Number</th>
+              <th>Fax Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row) => (
+              <tr key={row.id}>
+                <td style={{ textAlign: "center" }}>{row.id}</td>
+                <td><strong>{row.name}</strong></td>
+                <td>{row.designation}</td>
+                <td>{row.contact}</td>
+                <td>{row.fax}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import LatestNews from '../components/LatestNews';
 import UsefulLinks from '../components/UsefulLinks';
 import Footer from '../components/Footer';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <LatestNews/>
       <UsefulLinks />
       <Footer />
+      <ScrollToTopButton/>
     </>
   )
 }
