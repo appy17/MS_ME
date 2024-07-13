@@ -32,7 +32,7 @@ const Cards = () => {
 
             <div className='director-wrap'>
                 <div className="director-heading">
-                    DIRECTOR MESSAGE
+                  Jt. Director & HoO
                 </div>
 
                 <div className="director-content">

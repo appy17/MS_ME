@@ -9,13 +9,13 @@ import emblem from '../assets/emblem-dark.png'
 import SwachBharat from '../assets/swach-bharat.png'
 import { NavLink } from 'react-router-dom';
 
-    const Navbar = () => {
-        const [isOpen, setIsOpen] = useState(false);
-        const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    
-        const toggleDropdown = () => {
-            setIsDropdownOpen(!isDropdownOpen);
-        };
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setIsDropdownOpen(!isDropdownOpen);
+    };
     return (
         <div className='wrapper'>
             <div className='nav-head'>
@@ -58,7 +58,7 @@ import { NavLink } from 'react-router-dom';
 
 
             <div className='logosection'>
-            <div className='logo-0'>
+                <div className='logo-0'>
                     <img src={image1} alt="" />
                 </div>
                 <div className='logo-1'>
@@ -79,55 +79,55 @@ import { NavLink } from 'react-router-dom';
             {/* <hr /> */}
 
             <div style={{ margin: '-10px 0 0 0' }} className={`navitems-wrap ${isOpen ? 'open' : ''}`}>
-            <ul className='nav'>
-                <NavLink to='/' className='text-decor'>
-                    <li className="navitem">Home</li>
-                </NavLink>
+                <ul className='nav'>
+                    <NavLink to='/' className='text-decor'>
+                        <li className="navitem">Home</li>
+                    </NavLink>
 
-                 <li className="navitem" onClick={toggleDropdown}>
-                    About Us +
-                    {isDropdownOpen && (
-                        <ul className="dropdown">
-                            <NavLink to='/who' className='text-decor'>
-                                <li className="dropdown-item">Who's who</li>
-                            </NavLink>
-                        </ul>
-                    )}
-                </li>
-              
-                <NavLink to='/services' className='text-decor'>
-                    <li className="navitem">Services</li>
-                </NavLink>
+                    <li className="navitem" onClick={toggleDropdown}>
+                        About Us +
+                        {isDropdownOpen && (
+                            <ul className="dropdown">
+                                <NavLink to='/who' className='text-decor'>
+                                    <li className="dropdown-item">Who's who</li>
+                                </NavLink>
+                            </ul>
+                        )}
+                    </li>
 
-                <NavLink to='/schemes' className='text-decor'>
-                    <li className="navitem">Schemes</li>
-                </NavLink>
+                    <NavLink to='/services' className='text-decor'>
+                        <li className="navitem">Services</li>
+                    </NavLink>
 
-                <NavLink to='/notices' className='text-decor'>
-                    <li className="navitem">Notices +</li>
-                </NavLink>
+                    <NavLink to='/schemes' className='text-decor'>
+                        <li className="navitem">Schemes</li>
+                    </NavLink>
 
-                <NavLink to='/act&rules' className='text-decor'>
-                    <li className="navitem">Acts & Rules +</li>
-                </NavLink>
+                    <NavLink to='/notices' className='text-decor'>
+                        <li className="navitem">Notices +</li>
+                    </NavLink>
 
-                <NavLink to='/tenders' className='text-decor'>
-                    <li className="navitem">Tenders +</li>
-                </NavLink>
+                    <NavLink to='/act&rules' className='text-decor'>
+                        <li className="navitem">Acts & Rules +</li>
+                    </NavLink>
 
-                <NavLink to='/rti' className='text-decor'>
-                    <li className="navitem">RTI +</li>
-                </NavLink>
+                    <NavLink to='/tenders' className='text-decor'>
+                        <li className="navitem">Tenders +</li>
+                    </NavLink>
 
-                <NavLink to='/grievanceform' className='text-decor'>
-                    <li className="navitem">Registration</li>
-                </NavLink>
+                    <NavLink to='/rti' className='text-decor'>
+                        <li className="navitem">RTI +</li>
+                    </NavLink>
 
-                <NavLink to='/contact' className='text-decor'>
-                    <li className="navitem">Contact Us</li>
-                </NavLink>
-            </ul>
-        </div>
+                    <NavLink to='/grievanceform' className='text-decor'>
+                        <li className="navitem">Registration</li>
+                    </NavLink>
+
+                    <NavLink to='/contact' className='text-decor'>
+                        <li className="navitem">Contact Us</li>
+                    </NavLink>
+                </ul>
+            </div>
         </div>
     )
 }

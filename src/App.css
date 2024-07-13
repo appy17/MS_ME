@@ -60,17 +60,20 @@ body {
 .logosection {
   display: flex;
   align-items: center;
-  justify-content: space-evenly; 
+  justify-content:space-evenly;
   position: relative;
   padding: 1.5rem;
+
+}
+.logo-0{
+  width: 5rem;
 }
 .logo-0 img{
-  width:100px;
-  
+  width:100%;
 }
 .logo-1 img{
   width: 150px;
-  margin-left:-100px;
+  margin-left:-1rem;
 }
 
 .logo-2 {
@@ -79,13 +82,11 @@ body {
   flex-direction: column;
   align-items: center;
   color: #212934;
-
 }
 
 .logo-2 img {
   width: 100px;
-  background: transparent;
-  
+  background: transparent; 
 }
 
 .logo-2 h2 {
@@ -94,7 +95,6 @@ body {
   margin: 0;
   text-align: center;
 }
-
 
 /* NavList  */
 
