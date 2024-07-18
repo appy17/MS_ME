@@ -1,9 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Card1 from '../assets/card-1.jpg'
 import Card2 from '../assets/card-4.jpg'
 import Card3 from '../assets/card-3.jpg'
-import Director from '../assets/director-01.jpg'
+
 
 const Cards = () => {
     return (
@@ -32,7 +33,7 @@ const Cards = () => {
 
             <div className='director-wrap'>
                 <div className="director-heading">
-                  Jt. Director & HoO
+                  JD. DIRECTOR & HoO
                 </div>
 
                 <div className="director-content">
